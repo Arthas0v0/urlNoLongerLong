@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
     <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-24GN53DR5M"
+        src="https://www.googletagmanager.com/gtag/js?id=G-W5585ELF4E"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -23,7 +23,7 @@ export default function Home() {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-24GN53DR5M');
+          gtag('config', 'G-W5585ELF4E');
         `}
       </Script>
 
