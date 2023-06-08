@@ -15,9 +15,8 @@ const cloudflareLoader = ({ src, width, quality }) => {
     params.push(`quality=${quality}`);
   }
   const paramsString = params.join(',');
-  return `/cdn-cgi/image/${paramsString}/${normalizeSrc(src)}`;
+  return `/${normalizeSrc(src)}`;
 };
-
 export function Logo(props) {
   return (
     <div className="flex">
