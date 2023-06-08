@@ -7,7 +7,7 @@ export function Logo(props) {
     <div className="flex">
        <Image
                             className="h-10 w-10 object-cover"
-                            src={avatarImage4}
+                            src={avatarImage4.src}
                             alt=""
                             width={36}
                             height={36}
