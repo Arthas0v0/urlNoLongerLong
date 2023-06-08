@@ -5,7 +5,10 @@ const nextConfig = {
   experimental: {
     newNextLinkBehavior: true,
     scrollRestoration: true,
-  },
+  },images: {
+      loader: 'custom',
+      loaderFile: './cfImageLoader.js'
+    },
 }
 
 module.exports = nextConfig
